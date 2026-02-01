@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>FON_X</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="top">
+    <div class="title">FON_X</div>
+    <div class="user" id="user">...</div>
+  </div>
+
+  <div class="card">
+    <div class="bal-title">Balans</div>
+    <div class="bal-grid">
+      <div class="bal-item">USDT: <span id="b_usdt">0</span></div>
+      <div class="bal-item">RUB: <span id="b_rub">0</span></div>
+      <div class="bal-item">SO‘M: <span id="b_uzs">0</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="btn-row">
+      <button class="btn" id="btnDeposit">➕ Deposit</button>
+      <button class="btn ghost" id="btnWithdraw">➖ Withdraw</button>
+    </div>
+
+    <div class="btn-row" style="margin-top:10px;">
+      <button class="btn ghost" id="btnHistory">📜 Tarix</button>
+      <button class="btn ghost" id="btnAdmin" style="display:none;">🛠 Admin</button>
+    </div>
+  </div>
+
+  <div class="card" id="panel" style="display:none;"></div>
+
+  <div class="card">
+    <div class="games-title">O‘yinlar (keyin qo‘shamiz)</div>
+    <div class="games">
+      <div class="game">🎰 Slot</div>
+      <div class="game">💣 Mines</div>
+      <div class="game">✈️ Aviator</div>
+      <div class="game">🎲 Dice</div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
